@@ -1,0 +1,66 @@
+div, input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    margin-left: 20px;
+}
+.create {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.name {
+    font-size: 15px;
+}
+
+svg, h2, h3, p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+input {
+    width: 70%;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    color: white;
+}
+
+body, * {
+    color: white;
+    font-size: 12px;
+}
+
+button {
+    border: 50px solid black;
+    width: 170px;
+    margin-left: 40%;
+    margin-right: 30px;;
+    padding: 10px;
+    border-radius: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.english {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.anchor {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    text-decoration: none;
+    margin-bottom: 0;;
+}
+
+div a {
+    text-decoration: none;
+    color: yellow;
+    transition: text-decoration 0.3s ease;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
